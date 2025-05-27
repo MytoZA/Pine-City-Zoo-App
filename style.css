@@ -90,6 +90,7 @@ body{
     background-image: url('images/map-blur.png');
     background-repeat: repeat-y;
     background-size: cover;
+    height: 100%;
 }
 #content{
     padding-top: 1px;
@@ -147,6 +148,12 @@ a.info-box{
 #info-box-full h3{
     text-align: center;
 }
+#info-box-full h1{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
 
 /* ========== BACK BUTTON ========== */
 
@@ -172,7 +179,7 @@ img.info-box-weather-icon{
     width: 30px !important;
     height: 30px;
     margin: 10px;
-    float: left;
+    float: center;
 }
 h1.info-weather-icon{
     font-size: 65px;
@@ -186,6 +193,15 @@ table{
 }
 td{
     border-top: 1px solid #131313
+}
+.weather-details p{
+    text-align: center;
+}
+.weather-details h1{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 /* ========== FORM ========== */
@@ -214,4 +230,38 @@ textarea{
     font-size: 16px;
     margin: 12px 0;
     padding: 12px 0;
+}
+
+/* ========== INFO BOX FULL HOME ========== */
+
+#info-box-full-home{
+    background-image: url('images/map-blur.png');
+    width: 100%;
+    display: block;
+    padding: 8px;
+    height: 100vh;
+
+}
+#info-box-full-home h1{
+    font-size: 63px;
+    text-align: center;
+    color: white;
+    background-color: forestgreen;
+    padding: 12px;
+    margin: 0;
+}
+#content h1{
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+#content p{
+    background-color: rgba(255, 255, 255, .8);
+    margin: 0;
+}
+#content h2{
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    margin: 0;
 }
